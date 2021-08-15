@@ -27,7 +27,8 @@ public class SHCDecoder {
     public static void main(String... args) throws IOException {
         //var file = Path.of("2021-05-12 - Vaccin Pfizer 1ere dose.txt");
         //var file = Path.of("2021-07-22 - Vaccin Pfizer 2e dose.txt");
-        var file = Path.of("2021-07-26 - Vaccin Pfizer 2e dose.txt");
+        //var file = Path.of("2021-07-26 - Vaccin Pfizer 2e dose.txt");
+        var file = Path.of("fake.data");
 
         var content = Files.readString(file);
         content = content.trim();
